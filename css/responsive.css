@@ -9,42 +9,59 @@
     height: 300px;
   }
   /* ! tab */
-  .tab-block h5{
+  .tab-block h5 {
     font-size: 1.8rem;
     line-height: 2.5rem;
   }
   /* ! laptops */
-  .laptop-box{
+  .laptop-box {
     display: flex;
     flex-direction: row;
     max-width: 950px;
     width: 100%;
-    
+
     justify-content: center;
   }
-  .laptop-block{
+  .laptop-block {
     margin-top: 70px;
   }
-  .laptop-block h6{
+  .laptop-block h6 {
     margin-top: 50px;
   }
-  .laptop-block h6{
+  .laptop-block h6 {
     font-size: 1.3rem;
-  line-height: 2rem;
+    line-height: 2rem;
   }
   .laptop-block h2 {
     font-size: 1.8rem;
     line-height: 3rem;
   }
-  .laptop-container{
+  .laptop-container {
     width: 95%;
     margin: 0 auto;
   }
-  .laptop-box img{
+  .laptop-box img {
     max-width: 500px;
     width: 100%;
   }
-
+  /* !contact */
+  .contact-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-class {
+    margin-top: 30px;
+    max-width: 700px;
+    width: 100%;
+  }
+  .main-contact-class {
+    margin-top: 20px;
+  }
+  .map {
+    
+    width: 100%;
+  }
 }
 @media (max-width: 768px) {
   /* !phone */
@@ -56,44 +73,52 @@
     width: 100%;
   }
   /* ! tab*/
-  .tab-box{
+  .tab-box {
     width: 100%;
   }
   /* !laptops */
-  .laptop-box img{
+  .laptop-box img {
     max-width: 500px;
     width: 100%;
   }
-  .laptop-container{
+  .laptop-container {
     width: 90%;
     margin: 0 auto;
   }
 
- 
-  .tab-box{
+  .tab-box {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .laptop-box{
+  .laptop-box {
     display: flex;
     flex-direction: column;
     max-width: 950px;
     width: 100%;
     align-items: center;
   }
+
 }
-@media(max-width:480px){
+@media (max-width: 480px) {
   /* !tab */
-  .tab-block{
+  .tab-block {
     text-align: center;
   }
   /* ! laptop */
-  .laptop-block{
+  .laptop-block {
     margin-top: 0;
   }
-  .laptop-block h6{
+  .laptop-block h6 {
     margin-top: 0;
   }
-
+  /* ! contact */
+  .contact-box{
+    display: flex;
+    flex-direction: column;
+  }
+  .main-contact-class{
+    display: flex;
+    flex-direction: column;
+  }
 }
