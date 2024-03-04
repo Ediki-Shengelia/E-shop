@@ -1,3 +1,51 @@
+/* ! header */
+.bar{
+  display: none;
+}
+.fa-bars{
+  color: white;
+  font-size: 40px;
+}
+.header-bg {
+  background-color: black;
+  height: 100px;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 50;
+}
+.logo {
+  height: 60px;
+  width: 100px;
+}
+.nav-ul {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+ 
+}
+.a-class{
+  color: white;
+  font-size: 30px;
+  position: relative;
+}
+.a-class::after{
+  position: absolute;
+  width: 0%;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  content: "";
+  background-color: red;
+  transition: all 2s;
+}
+.a-class:hover::after{
+  width: 100%;
+}
+
+/* ! */
 .phonetitle {
   font-size: 4rem;
   text-align: center;
@@ -68,6 +116,7 @@ img:focus {
   margin-bottom: 40px;
 }
 #phones {
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -420,7 +469,7 @@ img:focus {
   height: 70px;
   width: 70px;
 }
-.footer{
+.footer {
   position: sticky;
   z-index: 7;
 }
