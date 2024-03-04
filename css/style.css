@@ -420,3 +420,7 @@ img:focus {
   height: 70px;
   width: 70px;
 }
+.footer{
+  position: sticky;
+  z-index: 7;
+}
