@@ -290,27 +290,133 @@ img:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 40px;
 }
 .map {
   width: 450px;
   height: 250px;
   border-radius: 20px;
 }
-.contact-class h3{
+.contact-class h3 {
   font-size: 35px;
   font-family: "Roboto";
 }
-.contact-class a{
+.contact-class a {
   font-size: 20px;
   color: coral;
 }
 .fa-phone,
-.fa-envelope,
-
-{
+.fa-envelope {
   font-size: 24px;
 }
-.main-contact-class{
+.main-contact-class {
   display: flex;
   justify-content: space-between;
+}
+.contact-block {
+  padding-bottom: 30px;
+}
+.footer {
+  background-color: black;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.about-div h3 {
+  font-size: 2rem;
+  line-height: 48px;
+}
+.about-div p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.about-div {
+  color: white;
+  max-width: 400px;
+  width: 100%;
+}
+.follow h3 {
+  color: white;
+  font-size: 2rem;
+  line-height: 48px;
+}
+.follow {
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+}
+.fa-square-facebook {
+  font-size: 30px;
+}
+.facebook {
+  margin-left: 15px;
+  font-size: 30px;
+}
+.fa-youtube {
+  font-size: 30px;
+}
+.youtube {
+  font-size: 30px;
+  margin-left: 15px;
+}
+.follow div {
+  margin-top: 20px;
+}
+.fa-square-instagram {
+  font-size: 30px;
+}
+.instagram {
+  font-size: 30px;
+  margin-left: 15px;
+}
+.office {
+  color: white;
+  max-width: 300px;
+  width: 100%;
+}
+.office h3 {
+  color: white;
+  font-size: 2rem;
+  line-height: 48px;
+}
+.office h4 {
+  color: white;
+  font-size: 1.2rem;
+  line-height: 30px;
+}
+.office h5 {
+  color: white;
+  font-size: 1.2rem;
+  line-height: 30px;
+}
+.facebok-hover {
+  color: rgb(13, 13, 227);
+}
+.facebook-hover:hover {
+  color: green;
+}
+.youtube-hover {
+  color: red;
+}
+.youtube-hover:hover {
+  color: green;
+}
+.instagram-hover {
+  color: deeppink;
+}
+.instagram-hover:hover {
+  color: green;
+}
+
+.chat {
+  height: 70px;
+  width: 70px;
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+  z-index: 4;
+}
+.chat-image {
+  height: 70px;
+  width: 70px;
 }
