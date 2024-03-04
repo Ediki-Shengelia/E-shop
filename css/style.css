@@ -1,20 +1,28 @@
 /* ! header */
 .bar{
   display: none;
-}
-.fa-bars{
+  position: absolute;
+  top: 15px;
+  right: 15px;
   color: white;
   font-size: 40px;
+  cursor: pointer;
 }
-.header-bg {
-  background-color: black;
-  height: 100px;
-  padding: 20px;
+.header-box{
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+.header-bg {
+  position: relative;
+  background-color: black;
+  /* height: 100px; */
+  padding: 20px;
+  width: 100%;
+  
   position: fixed;
   z-index: 50;
+ 
 }
 .logo {
   height: 60px;
@@ -312,7 +320,7 @@ img:focus {
   align-items: center;
   margin-top: 30px;
 }
-.button {
+#button {
   max-width: 250px;
   width: 100%;
   color: white;
